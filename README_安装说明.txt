@@ -1,33 +1,28 @@
-# 台达客服部｜内部协作台
+# 台达客服部｜内部协作台｜深紫灰正式版
 
-这是一个网页版内部 App / PWA 原型，可上传到 GitHub Pages 后用手机加入主画面。
+这是可直接上传到 GitHub Pages 的 PWA 正式替换包。
 
-## 文件说明
+## 更新内容
 
-- `index.html`：App 主页面
-- `manifest.json`：PWA 设置，控制手机桌面名称、图标、显示模式
-- `sw.js`：离线快取设置，让页面更像 App
-- `icons/`：手机桌面图标
+- 页面风格改为深紫灰透明企业版
+- App 图示改为柔和玻璃感 TD 版
+- 保留原本功能：日期自动、班表切换、出缺勤、AI产出、搜寻、通知
+- 可继续加入 iPhone / Android 手机桌面
 
-## GitHub Pages 上传方式
+## 上传方式
 
-1. 新建一个 GitHub 仓库。
-2. 把本资料夹里面的所有文件上传到仓库根目录。
-3. 到仓库 Settings → Pages。
-4. Source 选择 `Deploy from a branch`。
-5. Branch 选择 `main`，目录选择 `/root`。
-6. 等待 GitHub 生成网址。
-7. 用手机打开 GitHub Pages 网址。
-
-## iPhone 加到主画面
-
-Safari 打开网址 → 分享 → 加入主画面。
-
-## Android 加到主画面
-
-Chrome 打开网址 → 右上角菜单 → 加到主画面 / 安装应用程式。
+1. 解压缩本 ZIP。
+2. 打开 GitHub 仓库 `td-cs-app`。
+3. 上传本资料夹内所有文件，并覆盖原本文件：
+   - index.html
+   - manifest.json
+   - sw.js
+   - icons 资料夹
+   - README_安装说明.txt
+4. Commit changes。
+5. 等 GitHub Pages 重新部署。
+6. 手机若图示没有马上变，请删除旧桌面图示，重新用 Safari / Chrome 加入主画面。
 
 ## 注意
 
-这是 PWA / 网页 App，不是 App Store / Google Play 上架的原生 App。
-正式使用时建议用 HTTPS 网页环境，例如 GitHub Pages。
+因为 PWA 有快取，更新后手机可能需要等几分钟，或重新加入主画面，才会看到新图示与新样式。

@@ -1,4 +1,4 @@
-const CACHE_NAME = "td-cs-app-v1";
+const CACHE_NAME = "td-cs-app-dark-v2";
 const ASSETS = [
   "./",
   "./index.html",
